@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Minecraft Regular";
+    src: url("minecraft_font_by_pwnage_block-d37t6nb.eot?") format("eot"),
+         url("minecraft_font_by_pwnage_block-d37t6nb.woff") format("woff"),
+         url("minecraft_font_by_pwnage_block-d37t6nb.ttf") format("truetype"),
+         url("minecraft_font_by_pwnage_block-d37t6nb.svg#Minecraft") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes splash {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+@-moz-keyframes splash {
+    from {
+        -moz-transform: scale(1, 1);
+    }
+    to {
+        -moz-transform: scale(1.2, 1.2);
+    }
+}
+
+@-webkit-keyframes splash {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.05, 1.05);
+    }
+}
+
+div#rightContentBox {
+    width: 232px;
+    
+    /** flexile overrides **/
+    font-style: normal;
+    background: none;
+    border: 0;
+    white-space: nowrap;
+    
+    /** rotation **/
+    transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    -o-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+}
+
+div#rightContentBox > div {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(255,255,71);
+    font-weight: bolder;
+    text-shadow: 0.15em 0.15em rgb(63,63,0);
+    font-family: "Minecraft Regular", Georgia;
+    
+    /** animations **/
+    -moz-animation-name: splash;
+    -moz-animation-duration: .25s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-name: splash;
+    -webkit-animation-duration: .25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-name: splash;
+    animation-duration: .45s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.chatcolor-black {
+    color: #000;
+}
+.chatcolor-dark-blue {
+    color: #009;
+}
+.chatcolor-dark-green {
+    color: #090;
+}
+.chatcolor-teal {
+    color: #099;
+}
+.chatcolor-dark-red {
+    color: #800;
+}
+.chatcolor-purple {
+    color: #909;
+}
+.chatcolor-gold {
+    color: #F90;
+}
+.chatcolor-gray {
+    color: #CCC;
+}
+.chatcolor-dark-gray {
+    color: #999;
+}
+.chatcolor-blue {
+    color: #00F;
+}
+.chatcolor-bright-green {
+    color: #0F0;
+}
+.chatcolor-aqua {
+    color: #0FF;
+}
+.chatcolor-red {
+    color: #F00;
+}
+.chatcolor-pink {
+    color: #F0F;
+}
+.chatcolor-yellow {
+    color: #FF0;
+}
+.chatcolor-white {
+    color: #FFF;
+}
